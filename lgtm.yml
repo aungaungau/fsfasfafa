@@ -1,6 +1,9 @@
 extraction:
-  python:
-    prepare: 
-      packages: libpng-dev
-    python_setup: 
-      version: 3
+  cpp:
+     prepare:
+        packages: 
+          - libboost-all-dev
+          - bison
+     configure:
+        command:
+        - id
