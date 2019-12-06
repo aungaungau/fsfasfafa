@@ -1,9 +1,8 @@
 extraction:
-  cpp:
-    prepare:    # Customizable step used by all languages.
-      packages:
-        - nmap
-        - net-tools
-        - curl
-    after_prepare:    # Customizable step used by all languages.
-      - sudo -l
+  python:
+    prepare: 
+      packages: libpng-dev
+    python_setup: 
+      version: 3
+      setup_py:
+        - setup.py
