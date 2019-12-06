@@ -4,5 +4,3 @@ extraction:
       packages: libpng-dev
     python_setup: 
       version: 3
-      setup_py:
-        - setup.py
